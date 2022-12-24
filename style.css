@@ -5,8 +5,8 @@
 }
 
 header{
-    background-color: blue;
-    width: 1920px;
+    background-color: #0A22F4;
+    width: 100%;
     height: 388px;
 }
 
@@ -41,8 +41,6 @@ header a{
     background-color: #FFFFFF;
     color: #171717;
     border-radius: 28px;
-    height: 55px;
-    width: 160px;
 }
 
 .main{
@@ -92,4 +90,34 @@ h1{
 .cta p{
     padding: 18px 57px;
     color: #FFFFFF;
+}
+
+footer{
+    background-color: #0A22F4;
+    margin-top: 3076px;
+    width: 100%;
+    height: 100px;
+}
+
+.licence{
+    font-size: 16px;
+    padding: 40px 240px;
+    color: #FFFFFF;
+}
+
+.heart{
+    padding-left: 1345px;
+    margin-top: -75px;
+    color: #FFFFFF;
+}
+
+.heart img{
+    margin-bottom: -20px;
+}
+
+.footerLogo{
+    padding-left: 1558px;
+    margin-top: -50px;
+    width: 121px;
+    height: 35px;
 }
