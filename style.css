@@ -20,6 +20,10 @@ header ul{
     margin-top: -81px;
 }
 
+.navbar li{
+    padding-top: 21px;
+}
+
 header a{
     color: #FFFFFF;
     font-size: 16px;
@@ -37,11 +41,16 @@ header a{
     background-color: #FFFFFF;
     color: #171717;
     border-radius: 28px;
+    height: 55px;
+    width: 160px;
+}
+
+.main{
+    margin-left: 362px;
 }
 
 .mainBanner{
     margin-top: -215px;
-    margin-left: 362px;
     width: 1195px;
     height: 600px;
 }
@@ -50,5 +59,37 @@ h1{
     color: #171717;
     font-size: 28px;
     font-weight: bold;
-    padding-left: 362px;
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+
+
+.images img{
+    width: 219px;
+    height: 219px;
+    margin-right: 25px;
+}
+
+.text{
+    margin-left: 485px;
+    width: 951px;
+    margin-top: 60px;
+}
+
+.text p{
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+.cta{
+    margin-left: 790px;
+    margin-top: 76px;
+    border-radius: 28px;
+    width: 341px;
+    background-color: #0A22F4;
+}
+
+.cta p{
+    padding: 18px 57px;
+    color: #FFFFFF;
 }
