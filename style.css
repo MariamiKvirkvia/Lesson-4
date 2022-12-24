@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+    background-color: blue;
+    width: 1920px;
+    height: 388px;
+}
+
+header ul{
+    list-style: none;
+}
+
+.navbar{
+    text-align: right;
+    margin-right: 205px;
+    margin-top: -81px;
+}
+
+header a{
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.logo{
+    margin-top: 27px;
+    margin-left: 240px;
+    width: 115px;
+    height: 65px;
+}
+
+.contact{
+    background-color: #FFFFFF;
+    color: #171717;
+    border-radius: 28px;
+}
+
+.mainBanner{
+    margin-top: -215px;
+    margin-left: 362px;
+    width: 1195px;
+    height: 600px;
+}
+
+h1{
+    color: #171717;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 362px;
+}
