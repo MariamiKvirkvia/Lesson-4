@@ -4,23 +4,39 @@
 	padding: 0;
 }
 
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+
 header{
     background-color: #0A22F4;
     height: 388px;
+    width: 1900px;
+    margin-left: auto;
+	margin-right: auto;
+    padding-top: 40px;
 }
 
-header ul{
-    list-style: none;
+.container{
+    width: 1475px;
+    height: 91px;
+    margin-left: auto;
+	margin-right: auto;
 }
 
-.navbar{
-    text-align: right;
-    margin-right: 205px;
-    margin-top: -81px;
+nav, nav ul {
+	display: inline-block;
 }
 
-.navbar li{
-    padding-top: 21px;
+nav li{
+    display: inline-block;
+}
+
+nav, .logo{
+	vertical-align: middle;
 }
 
 header a{
@@ -30,8 +46,6 @@ header a{
 }
 
 .logo{
-    margin-top: 27px;
-    margin-left: 240px;
     width: 115px;
     height: 65px;
 }
@@ -43,12 +57,12 @@ header a{
 }
 
 .main{
-    margin-left: 362px;
+    width: 1195px;
+    margin-left: 363px;
 }
 
 .mainBanner{
     margin-top: -215px;
-    width: 1195px;
     height: 600px;
 }
 
@@ -63,7 +77,7 @@ h1{
 .images img{
     width: 219px;
     height: 219px;
-    margin-right: 23px;
+    margin-right: 16px;
 }
 
 .text{
@@ -78,10 +92,11 @@ h1{
 }
 
 .cta{
+    width: 341px;
     margin-left: 790px;
     margin-top: 76px;
+    margin-bottom: 76px;
     border-radius: 28px;
-    width: 341px;
     background-color: #0A22F4;
 }
 
@@ -91,32 +106,52 @@ h1{
     color: #FFFFFF;
 }
 
+
+
 footer{
     background-color: #0A22F4;
-    margin-top: 3076px;
-    height: 100px;
+    width: 1900px;
+    margin-left: auto;
+	margin-right: auto;
 }
+
+.foot{
+    padding-left: 240px;
+    
+}
+
+h2{ 
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.context{ 
+    width: 463px;
+    height: 99px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 58px;
+}
+
 
 .licence{
     font-size: 16px;
-    padding: 40px 240px;
     color: #FFFFFF;
 }
 
 .heart{
     font-size: 13px;
-    padding-left: 1345px;
-    margin-top: -75px;
+    padding-left: 896px;
     color: #FFFFFF;
 }
 
-.heart img{
-    margin-bottom: -20px;
-}
 
 .footerImage{
-    padding-left: 1558px;
-    margin-top: -50px;
     width: 121px;
-    height: 35px;
+}
+
+.licence, .heart, .footerImage{
+    display: inline-block;
 }
